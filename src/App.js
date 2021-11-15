@@ -1,5 +1,6 @@
 import React from 'react';
 import IdCard from './components/IdCard'
+import Greetings from './components/Greetings'
 import './App.css';
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
   birth={"1988-05-11"}
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
+
+<Greetings lang='de' children='Ludwig'
+/>
+<Greetings lang='fr' children='François'/>
     </div>
   );
 }
