@@ -54,7 +54,7 @@ Create a `IdCard` component with 6 props:
   firstName='John'
   gender='male'
   height={178}
-  birth={new Date("1992-07-14")}
+  birth="1992-07-14"
   picture="https://randomuser.me/api/portraits/men/44.jpg"
 />
 
@@ -63,7 +63,7 @@ Create a `IdCard` component with 6 props:
   firstName='Obrien'
   gender='female'
   height={172}
-  birth={new Date("1988-05-11")}
+  birth="1988-05-11"
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
 ```
@@ -258,8 +258,8 @@ Create a component `ClickablePicture` that displays a picture and toggle to the 
 
 ```js
 <ClickablePicture
-  img='./assets/images/maxence.png'
-  imgClicked='./assets/images/maxence-glasses.png'
+  img="./assets/images/maxence.png"
+  imgClicked="./assets/images/maxence-glasses.png"
 />
 ```
 
@@ -306,7 +306,7 @@ Create a `Carousel` component that displays an image and two buttons ('left' and
     'https://randomuser.me/api/portraits/women/1.jpg',
     'https://randomuser.me/api/portraits/men/1.jpg',
     'https://randomuser.me/api/portraits/women/2.jpg',
-    'https://randomuser.me/api/portraits/men/2.jpg'
+    'https://randomuser.me/api/portraits/men/2.jpg',
   ]}
 />
 ```
