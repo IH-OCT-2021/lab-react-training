@@ -4,6 +4,7 @@ import Greetings from './components/Greetings'
 import Random from './components/Random'
 import BoxColor from './components/BoxColor'
 import CreditCard from './components/CreditCard'
+import LikeButton from './components/LikeButton'
 import './App.css';
 
 function App() {
@@ -67,7 +68,7 @@ function App() {
   owner="Firstname Lastname"
   bgColor="#ddbb55"
   color="white" />
-
+<LikeButton /> <LikeButton />
     </div>
   );
 }
